@@ -1,0 +1,36 @@
+{
+  "name": "pipercon",
+  "version": "1.0.0",
+  "description": "The Annual HS Hackers Pilgrimage, 2015 Edition",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hshackers/PiperCon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hshackers/PiperCon/issues"
+  },
+  "homepage": "https://github.com/hshackers/PiperCon#readme",
+  "dependencies": {
+    "handlebars": "*",
+    "path": "~0.4.9",
+    "gulp-autoprefixer": "0.0.4",
+    "gulp-minify-css": "~0.2.0",
+    "gulp-livereload": "~0.2.0",
+    "tiny-lr": "0.0.5",
+    "gulp": "~3.9.0",
+    "gulp-less": "~1.2.1",
+    "geddy": "~0.12.2",
+    "gulp-connect": "~0.3.0",
+    "bower": "~1.2.8"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "0.8.x"
+  }
+}
