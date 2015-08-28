@@ -4,11 +4,13 @@ var gulp = require('gulp'),
     prefix = require('gulp-autoprefixer'),
     minifyCSS = require('gulp-minify-css')
     server = require('tiny-lr')(),
+    plumber = require('gulp-plumber'),
     livereload = require('gulp-livereload');
 
 gulp.task('styles', function() {
     gulp
         .src('css/less/main.less')
+        .pipe(plumber())
         .pipe(less({
             paths: [path.join(__dirname, 'less')]
         }))
@@ -21,12 +23,14 @@ gulp.task('styles', function() {
 gulp.task('scripts', function() {
     gulp
         .src('js/*.js')
+        .pipe(plumber())
         .pipe(livereload(server));
 });
 
 gulp.task('views', function() {
     gulp
         .src('*.html')
+        .pipe(plumber())
         .pipe(livereload(server));
 });
 
