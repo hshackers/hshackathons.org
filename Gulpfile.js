@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 
 gulp.task('styles', function() {
     gulp
-        .src('./css/less/main.less')
+        .src('css/less/main.less')
         .pipe(less({
             paths: [path.join(__dirname, 'less')]
         }))
@@ -20,13 +20,13 @@ gulp.task('styles', function() {
 
 gulp.task('scripts', function() {
     gulp
-        .src('./js/**/*.js')
+        .src('js/*.js')
         .pipe(livereload(server));
 });
 
 gulp.task('views', function() {
     gulp
-        .src('./*.html')
+        .src('*.html')
         .pipe(livereload(server));
 });
 
@@ -34,20 +34,8 @@ gulp.task('views', function() {
 gulp.task('default', function() {
     server.listen(35729, function(err) {
         if (err) return console.log(err);
-        gulp.watch('css/less/*.less', function() {
-            gulp.run('styles');
-        });
-        gulp.watch('js/*.js', function() {
-            gulp.run('scripts');
-        });
-        gulp.watch('*.html', function() {
-            gulp.run('views');
-        });
-        gulp.watch('*.md', function() {
-            gulp.run('views');
-        });
-        gulp.watch('*.yaml', function() {
-            gulp.run('views');
-        });
+        gulp.watch('css/less/*.less', ['styles']);
+        gulp.watch('js/*.js', ['scripts']);
+        gulp.watch(['*.html','*.md','*.yaml'], ['views']);
     });
 });
