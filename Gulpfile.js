@@ -34,13 +34,19 @@ gulp.task('views', function() {
 gulp.task('default', function() {
     server.listen(35729, function(err) {
         if (err) return console.log(err);
-        gulp.watch('/css/less/*.less', function() {
+        gulp.watch('css/less/*.less', function() {
             gulp.run('styles');
         });
-        gulp.watch('/js/*.js', function() {
+        gulp.watch('js/*.js', function() {
             gulp.run('scripts');
         });
-        gulp.watch('/*.html', function() {
+        gulp.watch('*.html', function() {
+            gulp.run('views');
+        });
+        gulp.watch('*.md', function() {
+            gulp.run('views');
+        });
+        gulp.watch('*.yaml', function() {
             gulp.run('views');
         });
     });
