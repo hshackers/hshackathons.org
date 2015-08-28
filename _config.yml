@@ -1,0 +1,20 @@
+# Site settings
+title: HS Hackathons
+tagline: "HS Hackathons"
+url: "https://hshackathons.com"
+timezone: America/New_York
+
+# Social
+twitter: hshackathons
+socialimg: /img/social.jpg
+
+# Contact
+email: "hello@hshackathons.com"
+
+# Use this for production
+sass:
+    style: :compressed
+
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+
+excerpt_separator: ""

@@ -4,8 +4,7 @@ var gulp = require('gulp'),
     prefix = require('gulp-autoprefixer'),
     minifyCSS = require('gulp-minify-css')
     server = require('tiny-lr')(),
-    livereload = require('gulp-livereload'),
-    connect = require('gulp-connect');
+    livereload = require('gulp-livereload');
 
 gulp.task('styles', function() {
     gulp
@@ -18,12 +17,6 @@ gulp.task('styles', function() {
         .pipe(gulp.dest('./css'))
         .pipe(livereload(server));
 });
-
-gulp.task('connect', connect.server({
-    root: __dirname,
-    port: 2015,
-    livereload: false
-}));
 
 gulp.task('scripts', function() {
     gulp
@@ -38,7 +31,7 @@ gulp.task('views', function() {
 });
 
 // The default task (called when you run `gulp`)
-gulp.task('default',['connect'], function() {
+gulp.task('default', function() {
     server.listen(35729, function(err) {
         if (err) return console.log(err);
         gulp.watch('/css/less/*.less', function() {

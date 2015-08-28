@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+  <!-- Encoding -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Routing -->
+  <base href="/">
+  <!-- Hi, my name is... -->
+  <title>{% if page.title %}{{ page.title }} - HS Hackathons{% else %}HS Hackathons{% endif %}</title>
+  {% if page.title %}
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta name="twitter:title" content="{{ page.title }}">
+  {% endif %}
+  <!-- For all the mobile users -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale = 1.0,maximum-scale=2.0,user-scalable=yes">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=?Source+Sans+Pro:300,400,700,900" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- <link rel="stylesheet" href="/icons/style.css"/> -->
+  {% if page.styles %}<link rel="stylesheet" type="text/css" href="/styles/{{ page.styles }}" />{% endif %}
+  <link rel="icon" type="image/x-icon" href="/favicon.png?v=3" />
+  <!-- About this webpage  -->
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
+  <link rel="author" href="https://plus.google.com/+VictorLourng/posts">
+  <meta name="description" content="{{ site.description }}" />
+  <!-- Robot loving hipster -->
+  <meta name="robots" content="index, follow" />
+  <!-- Triggering keywords for search engines -->
+  <meta name="keywords" content="High School Hackers, Hackathons, Computer Science">
+  {% if page.redirect %}
+  <!-- Redirects, Yo -->
+  <meta http-equiv="refresh" content="0;url={{ page.redirect }}" />
+  {% endif %}
+
+  {% if page.categories %}
+  <meta property="og:author" content="https://www.facebook.com/hshackathons" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- <meta name="twitter:image:src" content="{ page.cover }"> -->
+  <meta name="twitter:card" content="summary_large_image">
+  {% else %}
+  <meta property="og:type" content="website" />
+  <!-- <meta property="og:image" content="{ page.cover }" /> -->
+  <meta name="twitter:card" content="summary">
+  {% endif %}
+
+  {% if page.tagline %}
+  <meta property="og:description" content="{{ page.tagline }}" />
+  <meta name="twitter:description" content="{{ page.tagline }}">
+  {% endif %}
+
+  <meta name="twitter:domain" content=".com">
+  <meta name="twitter:site" content="@hshackathons">
+  <meta name="twitter:creator" content="@hshackathons">
+  <meta property="og:site_name" content="HS Hackathons" />
+  <meta property="og:url" content="http://hshackathons.com{{ page.url | replace:'index.html','' }}/" />
+
+  <!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="/js/main.js"></script>
+  <!-- <link rel="stylesheet" href="https://assets.tumblr.com/fonts/streetscript/stylesheet.css?v=1" media="screen" title="no title" charset="utf-8"/>
+  <link rel="stylesheet" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3" media="screen" title="no title" charset="utf-8"/>
+  <link rel="stylesheet" href="http://assets.tumblr.com/fonts/callunasans/stylesheet.css?v=3" media="screen" title="no title" charset="utf-8"/> -->
+</head>
+<body {% if page.class %}class="{{ page.class }}"{% endif %} {% if page.dev %}contenteditable="true"{% endif %}>

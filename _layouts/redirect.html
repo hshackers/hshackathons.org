@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirect to {{ page.title }}</title>
+  <meta http-equiv="refresh" content="0; url={{ page.redirect }}/" />
+</head>
+<body style="background:black;color:white;">
+  <table border="0" id="404" style="width:100%;height:100%;height:100vh;vertical-align:middle;text-align:center;margin: 0;font-family: Arial, sans-serif;font-size: 40px;font-weight: bold;-webkit-font-smoothing: antialiased;"><tr><td class="ani">
+    Redirecting to:
+    <br>
+    <a href="{{ page.redirect }}" style="color:white">{{ page.redirect }}</a>
+  </td></tr></table>
+</body>
+</html>
