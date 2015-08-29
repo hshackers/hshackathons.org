@@ -1,10 +1,24 @@
 @import "_normalize.less";
 @import "_base.less";
 
-@brand:                 green;
+// @import "pallete-2015fall.less"
+@2015fall-yellow: #F5D773;
+@2015fall-orange: #F96C48;
+@2015fall-pink:   #DB466B;
+@2015fall-purple: #A62671;
 
-@font-family-header:    "Proxima Nova Soft", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; // "Proxima Nova Condensed"
-@font-family-body:      "Proxima Nova Soft", "Source Sans Pro", "Calluna Sans", "Grumpy Black 48", Streetscript, "Playfair Display", Lora, Georgia, "Times New Roman", Times, serif;
+// Seasonal Color Pallete
+@color1: @2015fall-yellow;
+@color2: @2015fall-orange;
+@color3: @2015fall-pink;
+@color4: @2015fall-purple;
+
+@brand:  @color4;
+
+// @import "variables.less"
+
+@font-family-header:    "Source Sans Pro", "Proxima Nova Soft", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; // "Proxima Nova Condensed"
+@font-family-body:      "Source Sans Pro", "Proxima Nova Soft", "Source Sans Pro", "Calluna Sans", "Grumpy Black 48", Streetscript, "Playfair Display", Lora, Georgia, "Times New Roman", Times, serif;
 @font-family-code:      Monaco, Menlo, Consolas, "Courier New", monospace;
 
 @font-size-base:        16px;
@@ -14,7 +28,7 @@
 
 @grid-columns:          10;
 @grid-column-padding:   15px; // 15px; // Left and right inner padding
-@grid-float-breakpoint: 960px; // 1136px; // 1024px; // 852px; // 768px;
+@grid-float-breakpoint: 1200px;
 
 @mobile:                @grid-float-breakpoint;
 
