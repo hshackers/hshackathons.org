@@ -1,33 +1,58 @@
+- name: "Space Apps Next Gen"
+  description: ""
+  url: "http://spaceappsnextgen.com/"
+  start: 2015-08-29
+  end: 2015-08-30
+  deadline: 2015-08-18
+  location: "Office"
+  city: "Manhattan NYC"
+  logo:
+  cover:
+  attendees: 150
 - name: "PennApps"
   description: "Hosted at the nation's first university, PennApps is the original college hackathon. Come join us to learn something new, build an app, or start a company. Let's continue to make history together."
+  url: "http://pennapps.com/"
   start: 2015-09-04
   end: 2015-09-06
   deadline: 2015-07-01
   location: "Wells Fargo Center"
-  city: "Philadelphia"
-  url: "http://pennapps.com/"
+  city: "Philadelphia PA"
+  logo:
+  cover:
+  attendees: 375
+  designation: collegiate
+- name: "Unhackathon"
+  description: ""
+  url: "http://unhackathon.com/"
+  start: 2015-09-05
+  end: 2015-09-06
+  deadline: 2015-09-05
+  location: "???"
+  city: "???"
   logo:
   cover:
   attendees:
+  designation: collegiate
 - name: CodeDay
   description: "Join students in 36 cities nationwide, and build something awesome in 24 hours!"
-  start: 2015-11-07
-  end: 2015-11-08
-  deadline: 2015-11-07
-  location: "Nationwide"
-  city:
   url: http://codeday.org/
+  start: 2015-11-07
+  end: 22015-11-08
+  deadline: 2015-11-07
+  location: "Everywhere"
+  city: "United States"
   logo:
   cover:
-  attendees:
+  attendees: 1000
+  designation: national
 - name: "CHEHacks"
   description: "Open the Door to Programming."
+  url: http://chehacks.com/
   start: 2015-11-07
   end: 2015-11-08
   deadline: 2015-11-01
   location: "Cherry Hill Public Library"
-  city: "Cherry Hill, NJ"
-  url: http://chehacks.com/
+  city: "Cherry Hill NJ"
   logo:
   cover:
   attendees:

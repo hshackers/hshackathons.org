@@ -63,7 +63,36 @@ header {
 
 // @import "events.less";
 #events {
-  event {
-    .column;
+  column {
+    display: flex;
+    padding: .5em;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  .event {
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+    color: white;
+    border-radius: 10px;
+    &:hover {
+      box-shadow: 0 0 0 5px @2015fall-yellow;
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    p {
+      margin-bottom: 0px;
+    }
+    padding: 1em 0;
   }
 }
+#interested {
+  padding-top: 200px;
+  text-align: center;
+  background: linear-gradient(transparent 0%, @2015fall-yellow 200px);
+  color: black;
+}
+

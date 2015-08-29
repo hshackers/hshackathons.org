@@ -1,0 +1,64 @@
+---
+layout: default
+title: "Events"
+---
+{% assign eventPost = site.data.events.2015fall | sort: 'start' %}
+{% for event in eventPost %}
+{% capture events_count %} {{ events_count | plus: 1 }} {% endcapture %}
+{% capture attendees_count %} {{ attendees_count | plus: event.attendees }} {% endcapture %}
+{% endfor %}
+<style>
+  body {
+    background: linear-gradient(to top, #F5D773,#F96C48,#DB466B,#A62671);
+    color: white;
+  }
+  header {
+    background: none;
+  }
+</style>
+<header>
+  <container>
+    <h1>Fall 2015 Events</h1>
+    <p class="lead">Be a part of the hackathon movement. Attend a hackathon today! So far <span id="attendees">{{ attendees_count }}</span> students have attended <span id="events">{{ events_count }}</span> events</p>
+  </container>
+  <script>
+  var options = {
+    useEasing : true,
+    useGrouping : true,
+    separator : ',',
+    decimal : '.',
+    prefix : '',
+    suffix : ''
+  };
+  var attendeesCount = new CountUp("attendees", 0, {{ attendees_count }}, 0, 3.5, options);
+  attendeesCount.start();
+  var eventsCount = new CountUp("events", 0, {{ events_count }}, 0, 3.5, options);
+  eventsCount.start();
+  </script>
+</header>
+<section id="events">
+  <container>
+    <row>
+      {% for event in eventPost %}
+          <column size="25">
+            <a href="{{ event.url }}" class="event">
+              <span class="cover" style="background: {{ event.cover }}"></span>
+              <span class="logo" style="background: {{ event.logo }}"></span>
+              <h3>{{ event.name }}</h3>
+              <!-- <p class="meta">{{ event.description }}</p> -->
+              <p>{{ event.start | date: "%B %-d" }}-{{ event.end | date: "%-d" }}</p>
+              <p>{{ event.location }}</p>
+              <p>{{ event.city }}</p>
+            </a>
+          </column>
+      {% endfor %}
+    </row>
+  </container>
+</section>
+<section id="interested">
+  <container>
+    <h3>Interested in organizing your own hackathon?</h3>
+    <p class="lead">Here's a few resources to get started:</p>
+    <a href="/organize" class="button">Click here!</a>
+  </container>
+</section>
