@@ -1,0 +1,10 @@
+- name: "Sample Hackathon"
+  description: "Hack with Google"
+  url: "http://googlehacks.com/"
+  start: 2017-09-15
+  end: 2017-09-17
+  deadline: 2015-09-01
+  location: "School of Art"
+  city: "London UK"
+  logo: "*.png"
+  cover: "*.png or gradient"
