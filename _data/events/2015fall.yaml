@@ -4,11 +4,11 @@
   start: 2015-08-29
   end: 2015-08-30
   deadline: 2015-08-18
-  location: "Office"
+  location: "Lower Manhattan HQ"
   city: "Manhattan NYC"
-  logo:
-  cover:
-  attendees: 150
+  logo: "/img/events/spaceapps-15summer.png"
+  cover: "url(/img/events/hackbca-cover-bw.png)"
+  attendees: 108
 - name: "PennApps"
   description: "Hosted at the nation's first university, PennApps is the original college hackathon. Come join us to learn something new, build an app, or start a company. Let's continue to make history together."
   url: "http://pennapps.com/"
@@ -17,42 +17,100 @@
   deadline: 2015-07-01
   location: "Wells Fargo Center"
   city: "Philadelphia PA"
-  logo:
-  cover:
-  attendees: 375
+  logo: "/img/events/pennapps-15fall.png"
+  cover: "url(https://s3.amazonaws.com/assets.mlh.io/events/splashes/000/000/224/thumb/background.png?1436538374)"
+  attendees: 618
   designation: collegiate
 - name: "Unhackathon"
   description: ""
-  url: "http://unhackathon.com/"
+  url: "http://unhackathon.onrg/"
   start: 2015-09-05
-  end: 2015-09-06
+  end: 2015-09-05
   deadline: 2015-09-05
-  location: "???"
-  city: "???"
-  logo:
+  location: "Centre for Social Innovation"
+  city: "Manhattan NYC"
+  logo: "/img/events/unhackathon-15fall.png"
   cover:
-  attendees:
+  attendees: 40
   designation: collegiate
+- name: "MHacks"
+  description: ""
+  url: "http://mhacks.org/"
+  start: 2015-09-11
+  end: 2015-09-13
+  deadline: 2015-09-11
+  location: "University of Michigan"
+  city: "Ann Arbor MI"
+  logo: "/img/events/mhacks-15fall.png"
+  cover: "linear-gradient(#F39349,#F9C661)"
+  attendees: 74
+  designation: collegiate
+- name: "Hack The North"
+  description: ""
+  url: "http://mhacks.org/"
+  start: 2015-09-18
+  end: 2015-09-20
+  deadline: 2015-09-01
+  location: "University of Waterloo"
+  city: "Waterloo ON"
+  logo: "/img/events/hackthenorth-15fall.png"
+  cover: "url(/img/events/hackthenorth-15fall-cover.png)"
+  attendees: 0
+  designation: collegiate
+- name: HackRU
+  description: ""
+  url: http://hackru.org/
+  start: 2015-10-03
+  end: 2015-10-04
+  deadline: 2015-09-01
+  location: "Rutgers University"
+  city: "New Brunswick NJ"
+  logo: "/img/events/hackru-15fall.png"
+  cover: "url(/img/events/hackru-cover.jpg)"
+  attendees: 0
+  designation: national
+- name: Local Hack Day
+  description: ""
+  url: http://codeday.org/
+  start: 2015-10-10
+  end: 2015-10-10
+  deadline: 2015-10-10
+  location: "Everywhere"
+  city: "United States"
+  logo: "/img/events/localhackday-15fall.png"
+  cover: "url(/img/events/localhackday-cover.png)"
+  attendees: 0
+  designation: national
 - name: CodeDay
   description: "Join students in 36 cities nationwide, and build something awesome in 24 hours!"
   url: http://codeday.org/
   start: 2015-11-07
-  end: 22015-11-08
+  end: 2015-11-08
   deadline: 2015-11-07
   location: "Everywhere"
   city: "United States"
-  logo:
-  cover:
-  attendees: 1000
+  logo: "/img/events/codeday-15fall.png"
+  cover: "url(/img/events/codeday-cover.png)"
+  attendees: 0
   designation: national
 - name: "CHEHacks"
   description: "Open the Door to Programming."
   url: http://chehacks.com/
   start: 2015-11-07
   end: 2015-11-08
-  deadline: 2015-11-01
+  deadline: 2015-11-07
   location: "Cherry Hill Public Library"
   city: "Cherry Hill NJ"
-  logo:
-  cover:
-  attendees:
+  logo: "/img/events/chehacks-15fall.png"
+  cover: "url(/img/events/chehacks-cover.png)"
+  attendees: 0
+- name: "Sample Hackathon"
+  description: "Hack with Google"
+  url: "http://googlehacks.com/"
+  start: 2017-09-15
+  end: 2017-09-17
+  deadline: 2015-09-01
+  location: "School of Art"
+  city: "London UK"
+  logo: "*.png"
+  cover: "*.png or gradient"

@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Freight-SansBold';
+  src: url('Freight-SansBold.eot?#iefix') format('embedded-opentype'),  url('Freight-SansBold.otf')  format('opentype'),
+	     url('Freight-SansBold.woff') format('woff'), url('Freight-SansBold.ttf')  format('truetype'), url('Freight-SansBold.svg#Freight-SansBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

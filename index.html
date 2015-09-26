@@ -2,43 +2,167 @@
 layout: default
 title: "Home"
 ---
+{% assign eventPost = site.data.events.2015fall | sort: 'start' %}
+{% for event in eventPost %}
+{% capture events_count %} {{ events_count | plus: 1 }} {% endcapture %}
+{% capture attendees_count %} {{ attendees_count | plus: event.attendees }} {% endcapture %}
+{% endfor %}
 
+<div class="annoucements">
+  {% for event in eventPost %}{% if event.live %}
+      <a href="{{ event.live}}" class="livestream">
+        <container>
+          {{ event.name }} is livestreaming right now. Click here to tune in!
+        </container>
+      </a>
+    {% endif %}{% endfor %}
+</div>
 <!-- Add your site or application content here -->
 
 <header class="text-center">
   <container>
-    <h1>Hackathons change the world!</h1>
+    <h1>High School Hackathons</h1>
+    <p class="lead"><span>Let's <span class="typer" data-typer-targets="build,create,eat,make,code,write,design,hack,learn,share,scale,balance,git commit,bash,publish,share,node.js">build</span> cool things together</span></p>
+    <!-- <p>
+      <a href="#events" class="button"><strong><i class="octicon octicon-rocket"></i> Find an event!</strong></a>
+    </p> -->
+    <p>
+      <a href="#events" class=""> What is a hackathon?</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#events" class=""> For parents &amp; teachers</a>
+    </p>
   </container>
 </header>
 
-<section data-bind"events" id="events">
+<style>
+  /* body {
+    background: linear-gradient(to top, #F5D773,#F96C48,#DB466B,#A62671);
+    color: white;
+  }
+  header {
+    background: none;
+  } */
+</style>
+<section id="events">
   <container>
-    <h1>About</h1>
-    <p>Empowering high school students through high-impact STEM events</p>
+    <h1>Fall 2015 Season</h1>
+    <p class="lead">Be a part of the largest computer science movement in the world. Attend one of <span id="events_count">{{ events_count }}</span> hackathons today and join <span id="attendees_count">{{ attendees_count }}</span> students!</p>
+  </container>
+  <script>
+  var options = {
+    useEasing : true,
+    useGrouping : true,
+    separator : ',',
+    decimal : '.',
+    prefix : '',
+    suffix : ''
+  };
+  var attendeesCount = new CountUp("attendees_count", 0, {{ attendees_count }}, 0, 3.5, options);
+  attendeesCount.start();
+  // var eventsCount = new CountUp("events_count", 0, {{ events_count }}, 0, 3.5, options);
+  // eventsCount.start();
+  var unhackathon_colors = [#38A4FE,#3D9002,#34BCA3,#34BCA3,#FFC643,#EC006B,#DF2025,#007164];
+
+  </script>
+  <container>
+    <row>
+      {% assign now = site.time | date: '%s' %}
+      {% for event in eventPost %}
+          <!-- TODO: Translate time to closest date -->
+          {% assign eventStart = event.start | date: '%s' %}
+          {% assign eventEnd = event.end | date: '%s' %}
+          {% assign eventEndOffset = eventEnd + 86400 %}
+          {% assign eventDeadline = event.deadline | date: '%s' %}
+          <column size="25">
+            <a {% if event.live %}href="{{ event.live }}"{% else %}href="{{ event.url }}"{% endif %} target="_blank" class="event" data-event="{{ event.name }}">
+              <span class="cover" style="background-image: {{ event.cover }}"></span>
+              <span class="logo" style="background-image: url({{ event.logo }})"></span>
+              <p class="date">{{ event.start | date: "%B %-d" }} {% if event.start != event.end %}- {{ event.end | date: "%-d" }}{% endif %}</p>
+              <h3>{{ event.name }}</h3>
+              <!-- <p class="meta">{{ event.description }}</p> -->
+              <p>{{ event.location }}</p>
+              <p>{{ event.city }}</p>
+              <!--
+                TODO:
+                4 States
+                finished, count
+                finished, no count
+                in progress, stream
+                in progress, no stream
+                future, deadline over and/or not opencab3275oak5754boys
+                future, application open
+              -->
+              {% if event.live %}
+                <div class="banner live">
+                  This event is livestreaming now!
+                </div>
+              {% elsif eventStart > now %}
+                {% if eventDeadline > now %}
+                  <div class="banner future reg-open">
+                    Registration is open!
+                  </div>
+                {% else %}
+                  <div class="banner future reg-closed">
+                    Registration is closed!
+                  </div>
+                {% endif %}
+              {% elsif eventEnd < now %}
+                {% if event.attendees > 0 %}
+                  <div class="banner past past-data">
+                    {{ event.attendees }} high schoolers attended.
+                  </div>
+                {% else %}
+                  <div class="banner past past-dataless">
+                    Crunching data...
+                  </div>
+              {% endif %}
+              {% else %}
+                <div class="banner now">
+                  Hacking in progress!
+                </div>
+              {% endif %}
+            </a>
+          </column>
+      {% endfor %}
+    </row>
   </container>
 </section>
-
-<section data-bind="content">
+<section id="interested">
   <container>
-    <h1><data-title></data-title></h1>
-    <p><data-content></data-content></p>
+    <h3>Interested in organizing your own hackathon?</h3>
+    <p class="lead">Here's a few resources to get started:</p>
+    <a href="/organize" class="button">Click here!</a>
+    <br><br>
+    <p>
+      <a href="#events" class=""> Add your event!</a>
+    </p>
   </container>
 </section>
-
-<section data-bind="leaderboard">
+<section id="interested">
+  <row>
+    <column></column>
+    <column></column>
+  </row>
   <container>
-
-  </container>
-</section>
-
-<section data-bind="users">
-  <container>
-
-  </container>
-</section>
-
-<section data-bind="build">
-  <container>
-
+    <row>
+      <column>
+        <h3>Get Involved!</h3>
+        <p class="lead">Here's a few resources to get started:</p>
+        <a href="/organize" class="button">Click here!</a>
+        <br><br>
+        <p>
+          <a href="#events" class=""> Add your event!</a>
+        </p>
+      </column>
+      <column>
+        <h3>Get Involved!</h3>
+        <p class="lead">Here's a few resources to get started:</p>
+        <a href="/organize" class="button">Click here!</a>
+        <br><br>
+        <p>
+          <a href="#events" class=""> Add your event!</a>
+        </p>
+      </column>
+    </row>
   </container>
 </section>
