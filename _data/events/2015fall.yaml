@@ -21,6 +21,7 @@
   cover: "url(https://s3.amazonaws.com/assets.mlh.io/events/splashes/000/000/224/thumb/background.png?1436538374)"
   attendees: 618
   designation: collegiate
+  live: "https://www.youtube.com/watch?v=TvjwUh9taOA"
 - name: "Unhackathon"
   description: ""
   url: "http://unhackathon.onrg/"
