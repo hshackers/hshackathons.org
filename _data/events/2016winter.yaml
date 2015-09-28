@@ -1,10 +1,11 @@
-- name: "Sample Hackathon"
-  description: "Hack with Google"
-  url: "http://googlehacks.com/"
-  start: 2017-09-15
-  end: 2017-09-17
-  deadline: 2015-09-01
-  location: "School of Art"
-  city: "London UK"
-  logo: "*.png"
-  cover: "*.png or gradient"
+- name: "EagleHacks"
+  description: "Developers & Entrepreneurs"
+  url: "http://www.eaglehacks.com/"
+  start: 2016-1-30
+  end: 2016-2-1
+  deadline: 2016-1-16
+  location: "Allen Performing Arts Center"
+  city: "Allen TX"
+  logo: "http://imgur.com/o3GHIoX"
+  cover: "gradient"
+  attendees: 0
