@@ -7,7 +7,7 @@
   location: "Lower Manhattan HQ"
   city: "Manhattan NYC"
   logo: "/img/events/spaceapps-15summer.png"
-  cover: "url(/img/events/hackbca-cover-bw.png)"
+  cover: "url(http://i.imgur.com/wJa3ZCW.jpg)"
   attendees: 108
 - name: "PennApps"
   description: "Hosted at the nation's first university, PennApps is the original college hackathon. Come join us to learn something new, build an app, or start a company. Let's continue to make history together."
@@ -18,22 +18,21 @@
   location: "Wells Fargo Center"
   city: "Philadelphia PA"
   logo: "/img/events/pennapps-15fall.png"
-  cover: "url(https://s3.amazonaws.com/assets.mlh.io/events/splashes/000/000/224/thumb/background.png?1436538374)"
+  cover: "url(http://i.imgur.com/3rzra0X.jpg)"
   attendees: 618
-  designation: collegiate
-  live: "https://www.youtube.com/watch?v=TvjwUh9taOA"
+  type: college
 - name: "Unhackathon"
   description: ""
-  url: "http://unhackathon.onrg/"
+  url: "http://unhackathon.org/"
   start: 2015-09-05
   end: 2015-09-05
   deadline: 2015-09-05
   location: "Centre for Social Innovation"
   city: "Manhattan NYC"
   logo: "/img/events/unhackathon-15fall.png"
-  cover:
+  cover: "url(https://s3.amazonaws.com/assets.mlh.io/events/splashes/000/000/057/thumb/unhackathon.png?1402504905)"
   attendees: 40
-  designation: collegiate
+  type: college
 - name: "MHacks"
   description: ""
   url: "http://mhacks.org/"
@@ -45,7 +44,7 @@
   logo: "/img/events/mhacks-15fall.png"
   cover: "linear-gradient(#F39349,#F9C661)"
   attendees: 74
-  designation: collegiate
+  type: college
 - name: "Hack The North"
   description: ""
   url: "http://mhacks.org/"
@@ -56,8 +55,8 @@
   city: "Waterloo ON"
   logo: "/img/events/hackthenorth-15fall.png"
   cover: "url(/img/events/hackthenorth-15fall-cover.png)"
-  attendees: 0
-  designation: collegiate
+  attendees: 78
+  type: college
 - name: HackRU
   description: ""
   url: http://hackru.org/
@@ -68,20 +67,20 @@
   city: "New Brunswick NJ"
   logo: "/img/events/hackru-15fall.png"
   cover: "url(/img/events/hackru-cover.jpg)"
-  attendees: 0
-  designation: national
+  attendees: 135
+  type: national
 - name: Local Hack Day
   description: ""
-  url: http://codeday.org/
+  url: https://localhackday.mlh.io/
   start: 2015-10-10
   end: 2015-10-10
   deadline: 2015-10-10
   location: "Everywhere"
   city: "United States"
-  logo: "/img/events/localhackday-15fall.png"
-  cover: "url(/img/events/localhackday-cover.png)"
-  attendees: 0
-  designation: national
+  logo: "https://localhackday.mlh.io/img/lhd_logo.png"
+  cover: "url(http://localhackday.mlh.io/img/header_bg.jpg)"
+  attendees: 360
+  type: national
 - name: CodeDay
   description: "Join students in 36 cities nationwide, and build something awesome in 24 hours!"
   url: http://codeday.org/
@@ -92,8 +91,8 @@
   city: "United States"
   logo: "/img/events/codeday-15fall.png"
   cover: "url(/img/events/codeday-cover.png)"
-  attendees: 0
-  designation: national
+  attendees: 485
+  type: national
 - name: "CHEHacks"
   description: "Open the Door to Programming."
   url: http://chehacks.com/
@@ -104,7 +103,7 @@
   city: "Cherry Hill NJ"
   logo: "/img/events/chehacks-15fall.png"
   cover: "url(/img/events/chehacks-cover.png)"
-  attendees: 0
+  attendees: 156
 - name: "Sample Hackathon"
   description: "Hack with Google"
   url: "http://googlehacks.com/"

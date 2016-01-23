@@ -1,11 +1,230 @@
-- name: "EagleHacks"
-  description: "Developers & Entrepreneurs"
-  url: "http://www.eaglehacks.com/"
-  start: 2016-1-30
-  end: 2016-2-1
-  deadline: 2016-1-16
-  location: "Allen Performing Arts Center"
-  city: "Allen TX"
-  logo: "http://imgur.com/o3GHIoX"
-  cover: "gradient"
-  attendees: 0
+- name: DragonHacks
+  description:
+  url: http://dragonhacks.io
+  location: Drexel University
+  city: Philadelphia, PA
+  type: college
+  start: 2016-01-16
+  end: 2016-01-17
+  deadline: 2016-01-01
+  logo: /img/2016winter/dragonhacks.png
+  cover: url(/img/2016winter/dragonhacks-cover.jpg)
+  attendees: 12
+
+- name: Hack HW
+  description:
+  url: http://dragonhacks.io
+  location: Harvard-Westlake
+  city: Studio City, CA
+  type: hs
+  start: 2016-01-16
+  end: 2016-01-17
+  deadline: 2016-01-01
+  logo: /img/2016winter/unknown.gif
+  cover: url(/img/2016winter/hackhw.jpg)
+  attendees: 24
+
+- name: PennApps
+  description: Learn. Build. Hack.
+  url: http://2016s.pennapps.com/
+  location: University of Pennsylvania
+  city: Philadelphia, PA
+  type: college
+  start: 2016-01-22
+  end: 2016-01-24
+  deadline: 2015-11-01
+  logo: /img/2016winter/pennapps.png
+  cover: linear-gradient(#4095EE,#4095EE)
+  attendees: 200
+
+- name: Los Altos Hacks
+  description: ""
+  url: http://losaltoshacks.com
+  location: Microsoft Silicon Valley Campus
+  city: Mountain View, CA
+  type: hs
+  start: 2016-01-30
+  end: 2016-01-31
+  deadline: 2015-12-18
+  logo: /img/2016winter/losaltoshacks.png
+  cover: url(/img/2016winter/losaltoshacks-cover.jpg)
+
+- name: HackTrin III
+  description: Come spend a day coding in the greatest city in the world!
+  url: http://hacktrin.com/
+  location: Trinity School
+  city: Manhattan, NYC
+  type: hs
+  start: 2016-01-31
+  end: 2016-01-31
+  deadline: 2016-01-31
+  logo: /img/2016winter/hacktrin.png
+  cover: url(/img/2016winter/hacktrin.jpg)
+
+- name: HackTJ
+  description:
+  url: https://hacktj.org
+  location: Thomas Jefferson High School
+  city: Alexandria, VA
+  type: hs
+  start: 2016-02-06
+  end: 2016-02-07
+  deadline: 2016-01-01
+  logo: /img/2016winter/hacktj.png
+  cover: url(/img/2016winter/hacktj-cover.jpg)
+
+- name: CodeDay
+  description: Join students in 34 cities nationwide, and build something awesome in 24 hours!
+  url: http://codeday.org
+  location: Everywhere
+  city: United States
+  type: national
+  start: 2016-02-13
+  end: 2016-02-14
+  deadline: 2016-02-13
+  logo: /img/2016winter/codeday-winter.svg
+  cover: url(/img/2016winter/codeday-cover.jpg)
+
+- name: "MHacks: Refactor"
+  description:
+  url: http://mhacks.org/
+  location: University of Michigan
+  city: Ann Arbor, MI
+  start: 2016-02-19
+  end: 2016-02-21
+  deadline: 2016-02-18
+  type: college
+  logo: /img/2016winter/mhacks.svg
+  cover: linear-gradient(#FEE152,#FEE152)
+
+- name: OaklandHacks
+  description: Building the Bay and Beyond
+  url: http://ohacks.co
+  location: Oakland Technical High School
+  city: Oakland, CA
+  type: hs
+  start: 2016-02-20
+  end: 2016-02-20
+  deadline: 2016-02-20
+  logo: /img/2016winter/ohacks.png
+  cover: url(/img/2016winter/ohacks-cover.png)
+
+- name: MasseyHacks
+  description:
+  url: http://bit.ly/masseyhacks
+  location: Vincent Massey Secondary
+  city: Windsor, ON
+  type: hs
+  start: 2016-02-27
+  end: 2016-02-27
+  deadline: 2016-01-31
+  logo: /img/2016winter/missing.gif
+  cover: url(/img/2016winter/masseyhacks-cover.jpg)
+
+- name: Blueprint
+  description: A weekend-long learnathon and hackathon for local high school students held on MIT's campus
+  url: http://blueprint.hackmit.org
+  location: MIT
+  city: Cambridge, MA
+  type: hs
+  start: 2016-02-27
+  end: 2016-02-28
+  deadline: 2016-02-20
+  logo: /img/2016winter/blueprint.png
+  cover: url(/img/2016winter/blueprint-cover-alt.png)
+
+- name: GunnHacks 2.0
+  description: Make, Build, Create & Learn. It’s GunnHacks 2.0, Gunn’s 24‑hour high school hackathon.
+  url: http://gunnhacks.com
+  location: Henry M. Gunn High School
+  city: Palo Alto, CA
+  type: hs
+  start: 2016-03-25
+  end: 2016-03-26
+  deadline: 2016-01-31
+  logo: /img/2016winter/gunnhacks.png
+  cover: linear-gradient(#D86565,#A75100)
+
+- name: EagleHacks
+  description: Statups and Programming
+  url: http://www.eaglehacks.com/
+  location: Lexus Performing Arts Center
+  city: Allen, TX
+  type: college
+  start: 2016-04-02
+  end: 2016-04-02
+  deadline: 2016-04-02
+  logo: /img/2016winter/eaglehacks.png
+  cover: url(/img/2016winter/eaglehacks-cover.jpg)
+
+- name: hackBCA III
+  description: Light the Torch
+  url: http://hackbca.com/
+  location: Bergen County Academies
+  city: Hackensack, NJ
+  type: hs
+  start: 2016-04-02
+  end: 2016-04-03
+  deadline: 2016-04-02
+  logo: /img/2016winter/hackbca.png
+  cover: url(/img/2016winter/hackbca-cover.png)
+
+- name: MenloHacks
+  description:
+  url: http://menlohacks.com
+  location: Menlo School
+  city: Atherton, CA
+  type: hs
+  start: 2016-04-16
+  end: 2016-04-17
+  deadline: 2016-02-29
+  logo: /img/2016winter/menlohacks.png
+  cover: url(/img/2016winter/menlohacks-cover.jpg)
+
+- name: hackGFS
+  description: What will you create?
+  url: http://www.hackgfs.io
+  location: Germantown Friends School
+  city: Philadelphia, PA
+  type: hs
+  start: 2016-05-14
+  end: 2016-05-15
+  deadline: 2016-05-14
+  logo: /img/2016winter/hackgfs.jpg
+  cover: url(/img/2016winter/hackgfs-cover.jpg)
+
+- name: hackMHS
+  description:
+  url: http://hackmhs.com/
+  location: Millburn High School
+  city: Millburn, NJ
+  type: hs
+  start: 2016-05-21
+  end: 2016-05-22
+  deadline: 2016-05-21
+  logo: https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10277530_402686896593734_8598950401624935810_n.jpg
+  cover: url(/img/2016winter/missing.gif)
+
+- name: HackUC
+  description: Find Your Spark
+  url: http://bit.ly/hackucHH
+  location: Union Co. Technical School
+  city: Scotch Plains, NJ
+  type: hs
+  start: 2016-06-04
+  end: 2016-06-05
+  deadline: 2016-05-14
+  logo: /img/2016winter/missing.gif
+  cover: url(/img/2016winter/missing.gif)
+
+- name: Huskie Hack 2016
+  description: code, build, make, create
+  url: http://www.huskiehack.org
+  location: Northern Illinois University
+  city: DeKalb, IL
+  type: college
+  start: 2016-11-05
+  end: 2016-11-06
+  deadline: 2016-11-05
+  logo: /img/2016winter/missing.gif
+  cover: url(/img/2016winter/missing.gif)

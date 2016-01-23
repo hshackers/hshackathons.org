@@ -1,6 +1,7 @@
 @import "_normalize.less";
 @import "_base.less";
 @import "_fonts.less";
+@import "../../fonts/octicons.less";
 
 // Base colors
 @red: #F52121;
@@ -13,6 +14,8 @@
 @2015fall-orange: #FFC55C;
 @2015fall-red: #E95D35;
 @2015fall-blue: #272E6E;
+
+// linear-gradient(to bottom right,#D8FFF1,#D8FFF1,#B485D8,#5B73A7)
 
 // @2015fall-yellow: #F5D773;
 // @2015fall-orange: #F96C48;
@@ -143,6 +146,9 @@ header {
   color: black;
   background: linear-gradient(to bottom right, @2015fall-yellow, @2015fall-orange, @2015fall-red, @2015fall-blue);
   text-align: center;
+  &.winter {
+    background: linear-gradient(to bottom right,#D8FFF1,#D8FFF1,#B485D8,#5B73A7)!important;
+  }
   column {
     display: flex;
     padding: .5em;
@@ -163,7 +169,7 @@ header {
     border-radius: @border-radius;
     text-shadow: none;
     .logo {
-      width: 150px;
+      width: 180px;
       height: 150px;
       display: block;
       margin: auto;

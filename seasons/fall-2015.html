@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "Home"
+title: "Fall 2015 Season"
+permalink: /seasons/fall-2015/
 ---
-{% assign eventPost = site.data.events.2016winter | sort: 'start' %}
+{% assign eventPost = site.data.events.2015fall | sort: 'start' %}
 {% for event in eventPost %}
 {% capture events_count %} {{ events_count | plus: 1 }} {% endcapture %}
 {% capture attendees_count %} {{ attendees_count | plus: event.attendees }} {% endcapture %}
@@ -19,21 +20,6 @@ title: "Home"
 </div>
 <!-- Add your site or application content here -->
 
-<header class="text-center">
-  <container>
-    <h1>High School Hackathons</h1>
-    <p class="lead"><span>Let's <span class="typer" data-typer-targets="build,create,eat,make,code,write,design,hack,learn,share,scale,balance,git commit,bash,publish,share,node.js">build</span> cool things together</span></p>
-    <!-- <p>
-      <a href="#events" class="button"><strong><i class="octicon octicon-rocket"></i> Find an event!</strong></a>
-    </p> -->
-    <p>
-      <a href="#events" class=""> What is a hackathon?</a>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#events" class=""> For parents &amp; teachers</a>
-    </p>
-  </container>
-</header>
-
 <style>
   /* body {
     background: linear-gradient(to top, #F5D773,#F96C48,#DB466B,#A62671);
@@ -43,10 +29,11 @@ title: "Home"
     background: none;
   } */
 </style>
-<section id="events" class="winter">
+<section id="events">
   <container>
-    <h1>Winter 2016 Season</h1>
-    <p class="lead">Attend one of <span id="events_count">{{ events_count }}</span> hackathons today and join <span id="attendees_count">{{ attendees_count }}</span> students!</p>
+    <h1>Fall 2015 Season</h1>
+    <p class="lead">September - Decembber</p>
+    <p class="lead">This season, <span id="attendees_count">{{ attendees_count }}</span> students attended <span id="events_count">{{ events_count }}</span> hackathons!</p>
   </container>
   <script>
   var options = {
