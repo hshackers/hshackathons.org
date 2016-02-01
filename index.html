@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blank
 title: "Home"
 ---
 {% assign eventPost = site.data.events.2016winter | sort: 'start' %}
@@ -19,18 +19,33 @@ title: "Home"
 </div>
 <!-- Add your site or application content here -->
 
-<header class="text-center">
+<header id="header-homepage" class="text-center">
   <container>
-    <h1>High School Hackathons</h1>
-    <p class="lead"><span>Let's <span class="typer" data-typer-targets="build,create,eat,make,code,write,design,hack,learn,share,scale,balance,git commit,bash,publish,share,node.js">build</span> cool things together</span></p>
+    <h1>Learn, Build, and Create</h1>
+    <p class="lead"><span><span class="typer" data-typer-targets="build,create,eat,make,code,write,design,hack,learn,share,scale,balance,git commit,bash,publish,share,node.js">Be a part of</span> the world's largest community of high schoolers passionate about computer science.</span></p>
     <!-- <p>
       <a href="#events" class="button"><strong><i class="octicon octicon-rocket"></i> Find an event!</strong></a>
     </p> -->
     <p>
-      <a href="#events" class=""> What is a hackathon?</a>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#events" class=""> For parents &amp; teachers</a>
     </p>
+    <div class="boxed">
+     <strong>Attend an Event</strong>
+     <br>
+     <a href="#events" class="button">Winter 2016 Season</a>
+    </div>
+    <row>
+      <div size="50" class="text-left">
+        <strong>Learn More</strong> <br>
+        <a href="#events" class=""> What is a hackathon?</a>
+        <a href="/adults" class=""> For parents &amp; teachers</a>
+      </div>
+      <div size="50" class="text-left">
+        <strong>Get Involved</strong> <br>
+        <a href="#events" target="_blank" class="">Facebook Group</a>
+        <a href="/organize" class="">Organize an event</a>
+        <a href="/partners" class="">Partners</a>
+      </div>
+    </row>
   </container>
 </header>
 
@@ -45,8 +60,21 @@ title: "Home"
 </style>
 <section id="events" class="winter">
   <container>
-    <h1>Winter 2016 Season</h1>
-    <p class="lead">Attend one of <span id="events_count">{{ events_count }}</span> hackathons today and join <span id="attendees_count">{{ attendees_count }}</span> students!</p>
+    <h1>Winter 2016</h1>
+    <row>
+      <column size="33">
+        <span id="events_count big-number">{{ events_count }}</span>
+        <br>
+        Attendees
+      </column>
+      <column size="33">
+        Sticker goes here
+      </column>
+      <column size="33">
+         <span id="attendees_count big-number">{{ attendees_count }}</span> Events
+      </column>
+    </row>
+    <!-- <p class="lead">Attend one of <span id="events_count">{{ events_count }}</span> hackathons today and join <span id="attendees_count">{{ attendees_count }}</span> students!</p> -->
   </container>
   <script>
   var options = {

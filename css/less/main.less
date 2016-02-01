@@ -15,6 +15,12 @@
 @2015fall-red: #E95D35;
 @2015fall-blue: #272E6E;
 
+@2016winter-blue: #D8FFF1;
+@2016winter-sky: #D8FFF1;
+@2016winter-orchard: #B485D8;
+@2016winter-purple: #5B73A7;
+
+
 // linear-gradient(to bottom right,#D8FFF1,#D8FFF1,#B485D8,#5B73A7)
 
 // @2015fall-yellow: #F5D773;
@@ -34,7 +40,7 @@
 
 @font-family-header:    Asap, "Source Sans Pro", "Proxima Nova Soft", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; // "Proxima Nova Condensed"
 @font-family-body:      Freight, "Source Sans Pro", "Proxima Nova Soft", "Source Sans Pro", "Calluna Sans", "Grumpy Black 48", Streetscript, "Playfair Display", Lora, Georgia, "Times New Roman", Times, serif;
-@font-family-code:      Monaco, Menlo, Consolas, "Courier New", monospace;
+@font-family-code:      Menlo, Monaco, Consolas, "Courier New", monospace;
 
 @font-size-base:        18px;
 @line-height-base:      1.4;
@@ -239,7 +245,9 @@ header {
     }
   }
 }
-
+.big-number {
+  font-family: @font-family-code;
+}
 #interested {
   text-align: center;
   background: @color4;
@@ -251,6 +259,21 @@ header {
 footer {
   background:  black;
   color: white;
+}
+
+// @import "homepage.less";
+#header-homepage {
+  background: linear-gradient(#0D202D,lighten(#0D202D,10%));
+  color: white;
+  height: 100vh;
+  min-height: 555px;
+  display: flex;
+}
+.boxed {
+  display: inline-block;
+  background: rgba(155, 155, 155, 0.39);
+  padding: 0em .75em 1em;
+  border-radius: 8px;
 }
 
 // @import "404.less";
