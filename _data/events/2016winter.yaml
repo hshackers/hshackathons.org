@@ -107,11 +107,11 @@
   end: 2016-02-20
   deadline: 2016-02-20
   logo: /img/2016winter/ohacks.png
-  cover: url(/img/2016winter/ohacks-cover.png)
+  cover: url(/img/2016winter/ohacks-cover.jpg)
 
 - name: Hacktech
   description:
-  url: http://www.huskiehack.org
+  url: http://hacktech.io
   location: Caltech
   city: Pasadena, CA
   type: college
@@ -179,7 +179,7 @@
   end: 2016-04-03
   deadline: 2016-04-02
   logo: /img/2016winter/hackbca.png
-  cover: url(/img/2016winter/hackbca-cover.png)
+  cover: url(/img/2016winter/hackbca-cover.jpg)
 
 - name: MenloHacks
   description:
@@ -239,7 +239,7 @@
   end: 2016-11-06
   deadline: 2016-11-05
   logo: /img/2016winter/huskiehack.jpg
-  cover: url(/img/2016winter/huskiehack-cover.png)
+  cover: url(/img/2016winter/huskiehack-cover.jpg)
 
 - name: Boilermake
   description:
