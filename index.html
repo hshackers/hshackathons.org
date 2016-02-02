@@ -34,12 +34,12 @@ title: "Home"
      <a href="#events" class="button">Winter 2016 Season</a>
     </div>
     <row>
-      <div size="50" class="text-left">
+      <div size="50" class="text-left info-box">
         <strong>Learn More</strong> <br>
         <a href="#events" class=""> What is a hackathon?</a>
         <a href="/adults" class=""> For parents &amp; teachers</a>
       </div>
-      <div size="50" class="text-left">
+      <div size="50" class="text-left info-box">
         <strong>Get Involved</strong> <br>
         <a href="#events" target="_blank" class="">Facebook Group</a>
         <a href="/organize" class="">Organize an event</a>
@@ -61,17 +61,23 @@ title: "Home"
 <section id="events" class="winter">
   <container>
     <h1>Winter 2016</h1>
-    <row>
+    <row id="stats">
       <column size="33">
-        <span id="events_count big-number">{{ events_count }}</span>
-        <br>
-        Attendees
+        <div>
+          <span id="events_count" class="big-number">{{ events_count }}</span>
+          <br>
+          Attendees
+        </div>
       </column>
       <column size="33">
         Sticker goes here
       </column>
       <column size="33">
-         <span id="attendees_count big-number">{{ attendees_count }}</span> Events
+        <div>
+          <span id="attendees_count" class="big-number">{{ attendees_count }}</span>
+          <br>
+          Events
+        </div>
       </column>
     </row>
     <!-- <p class="lead">Attend one of <span id="events_count">{{ events_count }}</span> hackathons today and join <span id="attendees_count">{{ attendees_count }}</span> students!</p> -->
