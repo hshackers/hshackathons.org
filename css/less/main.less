@@ -130,6 +130,15 @@ navigation {
     }
   }
 }
+@media (max-width: 500px) {
+  navigation {
+    font-size: 12px;
+    line-height: 1em;
+    a {
+      padding: 1em .5em;
+    }
+  }
+}
 
 // @import "header.less";
 header {
@@ -426,5 +435,8 @@ footer {
   .visible-desktop, .hidden-mobile {
     visibility: hidden;
     display: none;
+  }
+  body {
+    font-size: 14px;
   }
 }
