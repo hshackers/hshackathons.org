@@ -20,8 +20,8 @@
   start: 2016-01-16
   end: 2016-01-17
   deadline: 2016-01-01
-  logo: /img/2016winter/unknown.gif
-  cover: url(/img/2016winter/hackhw.jpg)
+  logo: /img/2016winter/hackhw.jpg
+  cover: url(/img/2016winter/hackhw-cover.jpg)
   attendees: 24
 
 - name: PennApps
@@ -34,7 +34,7 @@
   end: 2016-01-24
   deadline: 2015-11-01
   logo: /img/2016winter/pennapps.png
-  cover: linear-gradient(#4095EE,#4095EE)
+  cover: url(/img/2016winter/pennapps-cover.png)
   attendees: 200
 
 - name: Los Altos Hacks
@@ -108,6 +108,18 @@
   deadline: 2016-02-20
   logo: /img/2016winter/ohacks.png
   cover: url(/img/2016winter/ohacks-cover.png)
+
+- name: Hacktech
+  description:
+  url: http://www.huskiehack.org
+  location: Caltech
+  city: Pasadena, CA
+  type: college
+  start: 2016-02-26
+  end: 2016-02-28
+  deadline: 2016-02-14
+  logo: /img/2016winter/hacktech.png
+  cover: linear-gradient(#3C3A3A,#3C3A3A)
 
 - name: MasseyHacks
   description:
@@ -202,8 +214,8 @@
   start: 2016-05-21
   end: 2016-05-22
   deadline: 2016-05-21
-  logo: https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10277530_402686896593734_8598950401624935810_n.jpg
-  cover: url(/img/2016winter/missing.gif)
+  logo: /img/2016winter/hackmhs.svg
+  cover: url(/img/2016winter/hackmhs-cover.jpg)
 
 - name: HackUC
   description: Find Your Spark
@@ -214,8 +226,8 @@
   start: 2016-06-04
   end: 2016-06-05
   deadline: 2016-05-14
-  logo: /img/2016winter/missing.gif
-  cover: url(/img/2016winter/missing.gif)
+  logo: /img/2016winter/hackuc.png
+  cover: url(/img/2016winter/hackuc-cover.jpg)
 
 - name: Huskie Hack 2016
   description: code, build, make, create
@@ -226,5 +238,17 @@
   start: 2016-11-05
   end: 2016-11-06
   deadline: 2016-11-05
-  logo: /img/2016winter/missing.gif
-  cover: url(/img/2016winter/missing.gif)
+  logo: /img/2016winter/huskiehack.jpg
+  cover: url(/img/2016winter/huskiehack-cover.png)
+
+- name: Boilermake
+  description:
+  url: http://boilermake.org
+  location: Purdue University
+  city: West Lafayette, IN
+  type: college
+  start: 2016-11-05
+  end: 2016-11-06
+  deadline: 2016-11-05
+  logo: /img/2016winter/boilermake.svg
+  cover: linear-gradient(#445C7A,#A36A80,#DF7A79,#FEA85C)
