@@ -105,11 +105,12 @@ title: "Home"
             <a {% if event.live %}href="{{ event.live }}"{% else %}href="{{ event.url }}"{% endif %} target="_blank" class="event" data-event="{{ event.name }}">
               <span class="cover" style="background-image: {{ event.cover }}"></span>
               <span class="logo" style="background-image: url({{ event.logo }})"></span>
-              <p class="date">{{ event.start | date: "%B %-d" }} {% if event.start != event.end %}- {{ event.end | date: "%-d" }}{% endif %}</p>
+              <p class="event-date hidden-mobile date">{{ event.start | date: "%B %-d" }} {% if event.start != event.end %}- {{ event.end | date: "%-d" }}{% endif %}</p>
               <h3>{{ event.name }}</h3>
               <!-- <p class="meta">{{ event.description }}</p> -->
-              <p>{{ event.location }}</p>
-              <p>{{ event.city }}</p>
+              <p class="event-date visible-mobile">{{ event.start | date: "%B %-d" }} {% if event.start != event.end %}- {{ event.end | date: "%-d" }}{% endif %}</p>
+              <p class="event-location">{{ event.location }}</p>
+              <p class="event-city">{{ event.city }}</p>
               <!--
                 TODO:
                 4 States
