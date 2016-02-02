@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blank
 title: "Organize"
 ---
 <header>
@@ -15,3 +15,90 @@ title: "Organize"
     Mentor students
   </container>
 </section>
+
+<section id="addevent">
+  <container>
+    <h2>Adding your event is as simple as a pull request.</h2>
+    <row>
+      <column>
+        <h3>Event Metadata Format:</h3>
+        <pre>- name: "PennApps"
+  description: "Hosted at the nation's first university, PennApps is the original college hackathon. Come join us to learn something new, build an app, or start a company. Let's continue to make history together."
+  url: "http://pennapps.com/"
+  location: "Wells Fargo Center"
+  city: "Philadelphia PA"
+  start: 2015-09-04
+  end: 2015-09-06
+  deadline: 2015-07-01
+  logo: "/img/events/pennapps-15fall.png"
+  cover: "url(https://s3.amazonaws.com/assets.mlh.io/events/splashes/000/000/224/thumb/background.png?1436538374)"
+  attendees: 618
+  type: college
+  live: "https://www.youtube.com/watch?v=TvjwUh9taOA"</pre>
+      </column>
+      <column>
+        <h3>Breakdown:</h3>
+        <li>
+          <b>name</b>: name of your event
+        </li>
+        <li>
+          <b>description</b>: (optional) short 200-character or less description about your event, for crawlers and DuckDuckGo
+        </li>
+        <li>
+          <b>url</b>: http(s) link to your event website
+        </li>
+        <li>
+          <b>start</b>: YYYY-MM-DD format of your event start date
+        </li>
+        <li>
+          <b>end</b>: YYYY-MM-DD format of your event end date, even if it's a 1 day event
+        </li>
+        <li>
+          <b>deadline</b>: YYYY-MM-DD format of the application deadline
+          <li>
+            If your event registration process is first-come-first-server
+          </li>
+          <li>
+            If your event registration isn't open yet, set it to 0000-00-01
+          </li>
+        </li>
+        <li>
+          <b>city</b>: City of event. Do not use commas.
+          <ul>
+            <li>
+              For events in New York City and Long Island: use of borough followed by NYC/LI is perferred.
+            </li>
+            <li>
+              For events in Washington DC: use of neighborhood followed by DC is perferred.
+            </li>
+            <li>
+              For intrnational events: follow a city, state (if applicable), and country code (if outside of Canada) (ex Richmond BC, Norwich UK)
+            </li>
+          </ul>
+        </li>
+        <li>
+          <b>logo</b>: URL, preferably one that matches stickers with a white border.
+        </li>
+        <li>
+          <b>cover</b>: css background property
+          <ul>
+            <li>url</li>
+            <li>gradient</li>
+            <li>solid color</li>
+          </ul>
+        </li>
+        <li>
+          <b>atttendees</b>: number of high school attendees
+        </li>
+        <li>
+          <b>type</b>: (optional) college or national.
+        </li>
+        <li>
+          <b>live</b>: (optional) url to livestream during event
+        </li>
+      </column>
+    </row>
+  </container>
+</section>
+<!-- <p>When the first High School Hackers meetup was held at PennApps last year, it brought together hundreds of like-minded teenagers for the first time. Over the course a year, high school hackers made their mark, not only exhibiting hockey stick growth in their Facebook group, but also winning hackathons like MHacks. Today, we’re bringing High School hacking to the next level with the introduction of High School Hackathons, a partnership with High School Hackers that will focus on teenage hackers. Currently, High School Hackathons will display high school hackathon events and college level hackathons that admit high schoolers.
+</p> -->
