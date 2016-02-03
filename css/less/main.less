@@ -64,7 +64,8 @@ navigation {
   z-index: 9001;
   position: fixed;
   width: 100%;
-  background: linear-gradient(rgba(180, 180, 180, 0.8),rgba(255, 255, 255, 0.85));
+  // background: linear-gradient(rgba(180, 180, 180, 0.8),rgba(255, 255, 255, 0.85));
+  background: rgba(255,255,255,.98);
   box-shadow: 0 0 12px rgba(50,50,50,.5);
   &:before {
     content: ' ';
@@ -152,10 +153,10 @@ header {
 .annoucements {
   .row;
   position: absolute;
-  top: 0;
+  top: 3.3em;
   left: 0;
   width: 100%;
-  z-index: 9001;
+  z-index: 8556;
   a, .annoucement {
     .alert;
   }
@@ -167,11 +168,21 @@ header {
       background: @red;
     }
     &:nth-child(3n+2) {
-      background: darken(@red,10%);
+      background: darken(@red,15%);
     }
     &:nth-child(3n+3) {
-      background: darken(@red,20%);
+      background: darken(@red,30%);
     }
+  }
+  &:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3.3em;
+    margin-top: -3.3em;
+    width: 100%;
+    background: white;
   }
 }
 
