@@ -178,7 +178,7 @@
   start: 2016-04-02
   end: 2016-04-03
   deadline: 2016-04-02
-  logo: /img/2016winter/hackbca.png
+  logo: /img/2016winter/hackbca.gif
   cover: url(/img/2016winter/hackbca-cover.jpg)
 
 - name: MenloHacks
@@ -204,6 +204,42 @@
   deadline: 2016-05-14
   logo: /img/2016winter/hackgfs.jpg
   cover: url(/img/2016winter/hackgfs-cover.jpg)
+
+- name: CodeDay Spring
+  description: Join students in 34 cities nationwide, and build something awesome in 24 hours!
+  url: http://codeday.org
+  location: Everywhere
+  city: United States
+  type: national
+  start: 2016-05-21
+  end: 2016-05-22
+  deadline: 2016-05-21
+  logo: /img/2016winter/codeday-winter.svg
+  cover: url(/img/2016winter/codeday-cover.jpg)
+
+- name: HackSJ
+  description:
+  url: http://boilermake.org
+  location: WheatonArts Event Center
+  city: West Lafayette, IN
+  type: hs
+  start: 2016-05-21
+  end: 2016-05-21
+  deadline: 2016-05-21
+  logo: /img/2016winter/hacksj.svg
+  cover: url(/img/2016winter/hacksj-cover.jpg)
+
+- name: MetroHacks
+  description:
+  url: http://metrohacks.co
+  location: 1 Cambrige Center
+  city: Boston, MA
+  type: hs
+  start: 2016-05-21
+  end: 2016-05-21
+  deadline: 2016-05-21
+  logo: /img/2016winter/metrohacks.png
+  cover: url(/img/2016winter/metrohacks-cover.jpg)
 
 - name: hackMHS
   description:
