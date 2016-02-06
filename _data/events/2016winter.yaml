@@ -75,6 +75,18 @@
   logo: /img/2016winter/hacktj.png
   cover: url(/img/2016winter/hacktj-cover.jpg)
 
+- name: Winter WonderHack
+  description: 
+  url: https://wwhack.org
+  location: Michigan Technological University
+  city: Houghton, MI
+  type: college
+  start: 2016-02-12
+  end: 2016-02-14
+  deadline: 2016-02-12
+  logo: 
+  cover: 
+
 - name: CodeDay
   description: Join students in 34 cities nationwide, and build something awesome in 24 hours!
   url: http://codeday.org
@@ -146,6 +158,54 @@
   deadline: 2016-02-20
   logo: /img/2016winter/blueprint.png
   cover: url(/img/2016winter/blueprint-cover-alt.png)
+  
+- name: Hack TCNJ
+  description: 
+  url: http://hacktcnj.com
+  location: The College of New Jersey
+  city: Ewing, NJ
+  type: college
+  start: 2016-02-27
+  end: 2016-02-28
+  deadline: 2016-02-27
+  logo: 
+  cover: 
+
+- name: Hack UMBC
+  description: Dream Big. Make it happen.
+  url: http://hackumbc.org
+  location: University of Maryland, Baltimore County
+  city: Baltimore, MD
+  type: college
+  start: 2016-03-05
+  end: 2016-03-06
+  deadline: 2016-03-05
+  logo: 
+  cover: 
+  
+- name: ProfHacks 
+  description: Enter the physical web
+  url: http://profhacks.com
+  location: Rowan University
+  city: Glassboro, NJ
+  type: college
+  start: 2016-03-12
+  end: 2016-03-13
+  deadline: 2016-03-12
+  logo: 
+  cover: 
+  
+- name: GrizzHacks  
+  description: A weekend with our community's most forward-thinking innovators.
+  url: http://grizzhacks.com
+  location: 2200 N Squirrel Rd
+  city: Rochester, MI
+  type: college
+  start: 2016-03-19
+  end: 2016-03-20
+  deadline: 2016-03-19
+  logo: 
+  cover: 
 
 - name: GunnHacks 2.0
   description: Make, Build, Create & Learn. It’s GunnHacks 2.0, Gunn’s 24‑hour high school hackathon.
@@ -182,6 +242,18 @@
   deadline: 2016-04-02
   logo: /img/2016winter/hackbca.gif
   cover: url(/img/2016winter/hackbca-cover.jpg)
+
+- name: CatHacks II
+  description: 
+  url: http://cathacks.cs.uky.edu
+  location: University of Kentucky
+  city: Lexington, KY
+  type: college
+  start: 2016-04-09
+  end: 2016-04-10
+  deadline: 2016-04-09
+  logo: 
+  cover: 
 
 - name: MenloHacks
   description:
