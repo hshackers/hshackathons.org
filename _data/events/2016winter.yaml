@@ -267,6 +267,18 @@
   logo: 
   cover: 
 
+- name: DiamondHacks
+  description: The second annual hackathon at NC State University for women interested in Computer Science! 
+  url: http://www.ncsudiamondhacks.com
+  location: North Carolina State University
+  city: Raleigh, NC
+  type: college
+  start: 2016-04-16
+  end: 2016-04-17
+  deadline: 2016-04-16
+  logo: 
+  cover: 
+
 - name: MenloHacks
   description:
   url: http://menlohacks.com
