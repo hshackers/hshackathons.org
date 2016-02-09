@@ -76,7 +76,7 @@
   cover: url(/img/2016winter/hacktj-cover.jpg)
 
 - name: Winter WonderHack
-  description: 
+  description:
   url: https://wwhack.org
   location: Michigan Technological University
   city: Houghton, MI
@@ -84,8 +84,8 @@
   start: 2016-02-12
   end: 2016-02-14
   deadline: 2016-02-12
-  logo: 
-  cover: 
+  logo:
+  cover:
 
 - name: CodeDay
   description: Join students in 34 cities nationwide, and build something awesome in 24 hours!
@@ -170,9 +170,9 @@
   deadline: 2016-02-20
   logo: /img/2016winter/blueprint.png
   cover: url(/img/2016winter/blueprint-cover-alt.png)
-  
+
 - name: Hack TCNJ
-  description: 
+  description:
   url: http://hacktcnj.com
   location: The College of New Jersey
   city: Ewing, NJ
@@ -180,8 +180,8 @@
   start: 2016-02-27
   end: 2016-02-28
   deadline: 2016-02-27
-  logo: 
-  cover: 
+  logo:
+  cover:
 
 - name: Hack UMBC
   description: Dream Big. Make it happen.
@@ -192,10 +192,10 @@
   start: 2016-03-05
   end: 2016-03-06
   deadline: 2016-03-05
-  logo: 
-  cover: 
-  
-- name: ProfHacks 
+  logo:
+  cover:
+
+- name: ProfHacks
   description: Enter the physical web
   url: http://profhacks.com
   location: Rowan University
@@ -204,10 +204,10 @@
   start: 2016-03-12
   end: 2016-03-13
   deadline: 2016-03-12
-  logo: 
-  cover: 
-  
-- name: GrizzHacks  
+  logo:
+  cover:
+
+- name: GrizzHacks
   description: A weekend with our community's most forward-thinking innovators.
   url: http://grizzhacks.com
   location: 2200 N Squirrel Rd
@@ -216,8 +216,8 @@
   start: 2016-03-19
   end: 2016-03-20
   deadline: 2016-03-19
-  logo: 
-  cover: 
+  logo:
+  cover:
 
 - name: GunnHacks 2.0
   description: Make, Build, Create & Learn. It’s GunnHacks 2.0, Gunn’s 24‑hour high school hackathon.
@@ -255,8 +255,20 @@
   logo: /img/2016winter/hackbca.gif
   cover: url(/img/2016winter/hackbca-cover.jpg)
 
+- name: Bitcamp
+  description: A 36-hour hackathon at the University of Maryland
+  url: http://bitca.mp
+  location: University of Maryland
+  city: College Park, MD
+  type: college
+  start: 2016-04-08
+  end: 2016-04-10
+  deadline: 2016-04-08
+  logo: /img/2016winter/bitcamp.svg
+  cover: linear-gradient(#CBF2FF,#CBF2FF)
+
 - name: CatHacks II
-  description: 
+  description:
   url: http://cathacks.cs.uky.edu
   location: University of Kentucky
   city: Lexington, KY
@@ -264,11 +276,11 @@
   start: 2016-04-09
   end: 2016-04-10
   deadline: 2016-04-09
-  logo: 
-  cover: 
+  logo:
+  cover:
 
 - name: DiamondHacks
-  description: The second annual hackathon at NC State University for women interested in Computer Science! 
+  description: The second annual hackathon at NC State University for women interested in Computer Science!
   url: http://www.ncsudiamondhacks.com
   location: North Carolina State University
   city: Raleigh, NC
@@ -276,8 +288,8 @@
   start: 2016-04-16
   end: 2016-04-17
   deadline: 2016-04-16
-  logo: 
-  cover: 
+  logo:
+  cover:
 
 - name: MenloHacks
   description:
