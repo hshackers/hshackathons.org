@@ -204,7 +204,7 @@
   start: 2016-03-12
   end: 2016-03-13
   deadline: 2016-03-12
-  logo: 
+  logo:
   cover:
 
 - name: GrizzHacks
@@ -276,8 +276,8 @@
   start: 2016-04-09
   end: 2016-04-10
   deadline: 2016-04-09
-  logo:
-  cover:
+  logo: /img/2016winter/cathacks.svg
+  cover: linear-gradient(#D6D6D6,#D6D6D6)
 
 - name: DiamondHacks
   description: The second annual hackathon at NC State University for women interested in Computer Science!
