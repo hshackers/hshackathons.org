@@ -144,8 +144,8 @@
   start: 2016-02-26
   end: 2016-02-28
   deadline: 2016-02-01
-  logo:
-  cover:
+  logo: /img/2016winter/spartaHack.svg
+  cover: linear-gradient(#000,#000)
 
 - name: MasseyHacks
   description:
@@ -180,8 +180,8 @@
   start: 2016-02-27
   end: 2016-02-28
   deadline: 2016-02-27
-  logo:
-  cover:
+  logo: /img/2016winter/hackTCNJ.png
+  cover: url(/img/2016winter/hackTCNJ_cover.png)
 
 - name: Hack UMBC
   description: Dream Big. Make it happen.
@@ -192,8 +192,8 @@
   start: 2016-03-05
   end: 2016-03-06
   deadline: 2016-03-05
-  logo:
-  cover:
+  logo: /img/2016winter/hackUMBC.svg
+  cover: url(/img/2016winter/hackUMBC_cover.png)
 
 - name: ProfHacks
   description: Enter the physical web
@@ -204,7 +204,7 @@
   start: 2016-03-12
   end: 2016-03-13
   deadline: 2016-03-12
-  logo:
+  logo: 
   cover:
 
 - name: GrizzHacks
