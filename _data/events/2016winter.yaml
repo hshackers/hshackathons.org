@@ -216,8 +216,8 @@
   start: 2016-03-19
   end: 2016-03-20
   deadline: 2016-03-19
-  logo:
-  cover:
+  logo: /img/2016winter/GrizzHacks.png
+  cover: url(/img/2016winter/grizz_hacks_cover.png)
 
 - name: GunnHacks 2.0
   description: Make, Build, Create & Learn. It’s GunnHacks 2.0, Gunn’s 24‑hour high school hackathon.
