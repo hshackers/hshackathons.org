@@ -207,6 +207,18 @@
   logo:
   cover:
 
+- name: defhacks("NJ")
+  description:
+  url: http://defhacks.xyz/nj.html
+  location: New Jersey
+  city:
+  type: hs
+  start: 2016-03-19
+  end: 2016-03-20
+  deadline: 2016-03-19
+  logo: /img/2016winter/defhacks_logo.png
+  cover: linear-gradient(#000,#000)
+
 - name: GrizzHacks
   description: A weekend with our community's most forward-thinking innovators.
   url: http://grizzhacks.com
@@ -267,6 +279,18 @@
   logo: /img/2016winter/bitcamp.svg
   cover: linear-gradient(#CBF2FF,#CBF2FF)
 
+- name: defhacks("DC")
+  description:
+  url: http://defhacks.xyz/dc.html
+  location: Maryland / D.C.
+  city:
+  type: hs
+  start: 2016-04-09
+  end: 2016-04-10
+  deadline: 2016-04-09  
+  logo: /img/2016winter/defhacks_logo.png
+  cover: linear-gradient(#000,#000)
+
 - name: CatHacks II
   description:
   url: http://cathacks.cs.uky.edu
@@ -314,6 +338,18 @@
   deadline: 2016-02-29
   logo: /img/2016winter/menlohacks.png
   cover: url(/img/2016winter/menlohacks-cover.jpg)
+
+- name: defhacks("SF")
+  description:
+  url: http://defhacks.xyz/ca.html
+  location: California
+  city: Bay Area, CA
+  type: hs
+  start: 2016-04-23
+  end: 2016-04-24
+  deadline: 2016-04-23
+  logo: /img/2016winter/defhacks_logo.png
+  cover: linear-gradient(#000,#000)
 
 - name: HackEHS
   description:
