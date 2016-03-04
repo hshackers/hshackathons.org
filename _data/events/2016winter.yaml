@@ -287,7 +287,7 @@
   type: hs
   start: 2016-04-09
   end: 2016-04-10
-  deadline: 2016-04-09  
+  deadline: 2016-04-09
   logo: /img/2016winter/defhacks_logo.png
   cover: linear-gradient(#000,#000)
 
@@ -327,6 +327,18 @@
   logo:
   cover:
 
+- name: HackRU
+  description:
+  url: http://hackru.org
+  location: Rutgers University
+  city: Piscataway, NJ
+  type: college
+  start: 2016-04-16
+  end: 2016-04-17
+  deadline: 2016-04-16
+  logo: /img/2016winter/hackru_logo.png
+  cover:  linear-gradient(#E1423E,#E1423E)
+
 - name: MenloHacks
   description:
   url: http://menlohacks.com
@@ -362,7 +374,7 @@
   deadline: 2016-04-23
   logo: /img/2016winter/hackehs.png
   cover: linear-gradient(#262626,#262626)
-  
+
 - name: QueensHack
   description: Queens' very first student-run hackathon
   url: https://queenshack.nyc/
